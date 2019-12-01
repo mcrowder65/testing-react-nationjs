@@ -32,7 +32,7 @@ export class Palette extends React.Component {
         </Button>
         <Text>
           <a
-            href="https://github.com/mcrowder65/testing-react-rvajs/blob/master/src/slides/wrong/palette.js"
+            href="https://github.com/mcrowder65/testing-react-nationjs/blob/master/src/slides/wrong/palette.js"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,7 +41,7 @@ export class Palette extends React.Component {
         </Text>
         <Text>
           <a
-            href="https://github.com/mcrowder65/testing-react-rvajs/blob/master/src/slides/wrong/__tests__/palette.test.js"
+            href="https://github.com/mcrowder65/testing-react-nationjs/blob/master/src/slides/wrong/__tests__/palette.test.js"
             target="_blank"
             rel="noopener noreferrer"
           >

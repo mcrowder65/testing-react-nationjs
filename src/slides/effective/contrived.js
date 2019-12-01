@@ -10,7 +10,7 @@ function Contrived() {
     <Container flexDirection="column">
       <Text>
         <a
-          href="https://github.com/mcrowder65/testing-react-rvajs/blob/master/src/slides/effective/__tests__/switch.test.js#L5-L4"
+          href="https://github.com/mcrowder65/testing-react-nationjs/blob/master/src/slides/effective/__tests__/switch.test.js#L5-L4"
           target="_blank"
           rel="noopener noreferrer"
         >

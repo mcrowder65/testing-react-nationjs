@@ -12,12 +12,12 @@ In this talk, I will first introduce react-testing-library, what it is, what it 
 
 ---
 
-This was a talk given at <a href="https://www.rvajavascript.com/">RVA JavaScript</a> on November 15, 2019.
+This was a talk given at <a href="nationjs.com">Frontrunners React!</a> on December 6th, 2019.
 
-Slides/website are available are <a href="https://testingreactrvajs.netlify.com">available here</a>
+Slides/website are available are <a href="https://testingreactnationjs.netlify.com">available here</a>
 
 
-[travis-image]: https://travis-ci.org/mcrowder65/testing-react-rvajs.svg?branch=master
-[travis-url]: https://travis-ci.org/mcrowder65/testing-react-rvajs
-[coverage-image]: https://coveralls.io/repos/github/mcrowder65/testing-react-rvajs/badge.svg
-[coverage-url]: https://coveralls.io/github/mcrowder65/testing-react-rvajs
+[travis-image]: https://travis-ci.org/mcrowder65/testing-react-nationjs.svg?branch=master
+[travis-url]: https://travis-ci.org/mcrowder65/testing-react-nationjs
+[coverage-image]: https://coveralls.io/repos/github/mcrowder65/testing-react-nationjs/badge.svg
+[coverage-url]: https://coveralls.io/github/mcrowder65/testing-react-nationjs
