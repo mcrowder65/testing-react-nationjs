@@ -4,7 +4,7 @@ import { Container } from "../reusable/container";
 import { Text } from "../reusable/text";
 
 const AboutMe = () => {
-  const code = "https://testingreactnatinojs.netlify.com";
+  const code = "https://testingreactnationjs.netlify.com";
   return (
     <Container flexDirection="column">
       <Text>

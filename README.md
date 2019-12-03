@@ -12,7 +12,7 @@ In this talk, I will first introduce react-testing-library, what it is, what it 
 
 ---
 
-This was a talk given at <a href="nationjs.com">Frontrunners React!</a> on December 6th, 2019.
+This was a talk given at <a href="http://nationjs.com">Frontrunners React!</a> on December 6th, 2019.
 
 Slides/website are available are <a href="https://testingreactnationjs.netlify.com">available here</a>
 
