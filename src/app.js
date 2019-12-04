@@ -5,9 +5,11 @@ import AboutMe from "./slides/about-me";
 import What from "./slides/what";
 import Encourage from "./slides/encourage";
 // import Best from "./slides/best";
+import Wrong from "./slides/wrong/wrong";
 import Effective from "./slides/effective/effective";
 import Contrived from "./slides/effective/contrived";
 import Palette from "./slides/effective/palette";
+import Palette2 from "./slides/wrong/palette";
 import TestOfTime from "./slides/test-of-time";
 import Queries from "./slides/apis/queries";
 import FiringEvents from "./slides/apis/firing-events";
@@ -18,35 +20,34 @@ import "./polyfills";
 import Providers from "./providers";
 import Outline from "./reusable/outline/outline";
 import { createPersistedStore } from "./redux/create-store";
-import HowIUsedToWriteTests from "./slides/how-i-used-to-write-tests";
 import Siths from "./slides/siths/siths";
 import JourneyToRtl from "./slides/journey-to-rtl";
 import RealWorldExplanation from "./slides/effective/real-world-explanation";
 const routes = [
   { path: "/about-me", name: "About me", component: AboutMe },
-  {
-    path: "/how-i-used-to-write-tests",
-    name: "How I used to write tests",
-    component: HowIUsedToWriteTests
-  },
-  // { path: "/agenda", name: "Agenda", component: Agenda },
   // {
-  //   path: "/wrong-tests",
-  //   name: "The wrong way to write tests",
-  //   component: Wrong,
-  //   subcomponents: [
-  //     {
-  //       path: "/switch",
-  //       component: Wrong,
-  //       name: "Switch"
-  //     },
-  //     {
-  //       path: "/palette",
-  //       component: Palette2,
-  //       name: "Color Palette"
-  //     }
-  //   ]
+  //   path: "/how-i-used-to-write-tests",
+  //   name: "How I used to write tests",
+  //   component: HowIUsedToWriteTests
   // },
+  // { path: "/agenda", name: "Agenda", component: Agenda },
+  {
+    path: "/wrong-tests",
+    name: "The wrong way to write tests",
+    component: Wrong,
+    subcomponents: [
+      {
+        path: "/switch",
+        component: Wrong,
+        name: "Switch"
+      },
+      {
+        path: "/palette",
+        component: Palette2,
+        name: "Color Palette"
+      }
+    ]
+  },
   {
     path: "/journey",
     name: "My Journey to writing better tests",

@@ -12,7 +12,8 @@ test("renders", () => {
   );
 });
 
-test(`WHEN I click a color it updates local state.swatchColor to that color THEN WHEN I click the submit button, it calls updateThemeColor prop`, () => {
+test(`WHEN I click a color it updates local state.swatchColor to that color
+THEN WHEN I click the submit button, it calls updateThemeColor prop`, () => {
   jest.spyOn(ReactIntl, "FormattedMessage").mockImplementation(() => <div />);
   const updateThemeColor = jest.fn();
   const comp = mount(<Palette updateThemeColor={updateThemeColor} />);
